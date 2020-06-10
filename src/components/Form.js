@@ -5,14 +5,16 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Form>
+        <h1>Stay In Touch ?!</h1>
+        <h4>Google Maps Placeholder</h4>
         <FormGroup>
           <Label for="exampleEmail">Email</Label>
           <Input type="email" name="email" id="Email" placeholder="Enter your email" />
         </FormGroup>
         
         <FormGroup>
-          <Label for="exampleText">Text Area</Label>
-          <Input type="textarea" name="text" id="exampleText" />
+          <Label for="exampleText">Message</Label>
+          <Input type="textarea" placeholder="please write your message here"name="text" id="exampleText" />
         </FormGroup>
         <Button>Submit</Button>
       </Form>
