@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Form>
-        <h1>Stay In Touch ?!</h1>
+        <h1>This product is on hold</h1>
         <h4>Google Maps Placeholder</h4>
         <FormGroup>
           <Label for="exampleEmail">Email</Label>
